@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bandera {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas de igual tamaño */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Franjas */
+  .franja {
+    height: 100%;  /* Ocupa toda la altura */
+  }
+  
+  .azul {
+    background-color: #0055A4; /* Azul de la bandera de Francia */
+  }
+  
+  .blanca {
+    background-color: white;
+  }
+  
+  .roja {
+    background-color: #EF4135; /* Rojo de la bandera de Francia */
+  }
+  

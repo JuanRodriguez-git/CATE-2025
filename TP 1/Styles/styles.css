@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+    margin: 5%;
+}
+header{
+    background-color: black;
+    padding: 5px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+a{
+    color: black;
+}
+li{
+    font-size: 30px;
+    padding: 1.7%;
+    text-align: center;
+    list-style: none;
+}

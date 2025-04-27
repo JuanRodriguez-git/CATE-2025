@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bandera {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: #006aa7; /* Azul de fondo */
+    position: relative;
+  }
+  
+  /* Cruz horizontal */
+  .horizontal {
+    background-color: #fecc00; /* Amarillo */
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+  }
+  
+  /* Cruz vertical */
+  .vertical {
+    background-color: #fecc00; /* Amarillo */
+    display: grid;
+    grid-row: 1 / -1;
+    grid-column: 2 / 3;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+  }
+  
+  

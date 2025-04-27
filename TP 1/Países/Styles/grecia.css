@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bandera {
+    display: flex;
+    flex-direction: column; /* apila verticalmente */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+  }
+  
+  /* Cantón */
+  .canton {
+    background-color: #0d5eaf;
+    width: 30%; /* puede ser 30% o lo que quieras */
+    height: calc(5 * (100% / 9)); /* ocupa 5 franjas de 9 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Cruz */
+  .cruz-horizontal, .cruz-vertical {
+    background-color: white;
+    position: absolute;
+  }
+  
+  .cruz-horizontal {
+    width: 80%;
+    height: 20%;
+  }
+  
+  .cruz-vertical {
+    width: 20%;
+    height: 80%;
+  }
+  
+  /* Franjas */
+  .franja {
+    flex: 1; /* Cada franja ocupa la misma altura */
+  }
+  
+  .azul {
+    background-color: #0d5eaf;
+  }
+  
+  .blanca {
+    background-color: white;
+  }
+  
